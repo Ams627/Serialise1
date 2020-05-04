@@ -28,7 +28,7 @@ namespace Serialise1
             }
         }
 
-//        [XmlIgnore]
+        [XmlIgnore]
         public XElement XElement
         {
             get => GetXElement();
